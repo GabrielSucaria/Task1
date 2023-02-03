@@ -1,18 +1,4 @@
 *{
-    margin:0%;
     box-sizing: border-box;
 }
 
-th{
-    background-color: rgb(19, 233, 233);
-}
-
-td{
-    background-color: aquamarine;
-}
-
-
-
-table{
-    border: solid black 1px;
-}
