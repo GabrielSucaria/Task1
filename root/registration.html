@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="h1form">Registration Form</h1>
+    </header>
+
+    <main>
+        <form action="./show_data.html" method="get">
+
+            <fieldset>
+                <label for="first_name">Player's First Name</label>
+                <input type="text" name="first_name" id="first_name">
+
+                <label>
+                    Last Name
+                    <input name="last_name" type="text">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label>
+                    Street Address
+                    <input name="street_address" type="text">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label>
+                    City
+                    <input name="city" type="text">
+                </label>
+
+                <label>
+                    Zip Code
+                    <input name="zip_code" type="number" min="1" max="10000">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label>
+                    Birth Date(mm/dd/yyyy):
+                    <input name="birth_date" type="number" min="1" max="10000">
+                </label>
+
+                <label>Gender:</label>
+                <label>
+                    Female
+                    <input name="gender" type="radio" value="female">
+                </label>
+                <label>
+                    Male
+                    <input name="gender" type="radio" value="male">
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label>Grade:</label>
+                <input name="grade" type="radio" id="pre_school" value="Pre-School">
+                <label for="pre_school">Pre-School</label>
+
+                <input name="grade" type="radio" id="first" value="1st">
+                <label for="first">1st</label>
+
+                <input name="grade" type="radio" id="second" value="2nd">
+                <label for="grade">2nd</label>
+
+                <input name="grade" type="radio"  id="third" value="3rd">
+                <label for="third">3rd</label>
+
+                <input name="grade" type="radio" id="fourth" value="4th">
+                <label for="fourth">4th</label>
+
+                <input name="grade" type="radio" id="fifth" value="5th">
+                <label for="fifth">5th</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Which elemtary school do you live near?</h3></legend>
+                <legend>Closest School:</legend>
+
+                <input name="closest_school" type="radio" id="Katzenmaier" value="AJ Katzenmaier">
+                <label for="Katzenmaier">AJ Katzenmaier</label>
+
+                <input name="closest_school" type="radio" id="Greenbay" value="Greenbay">
+                <label for="Greenbay">Greenbay</label>
+
+                <input name="closest_school" type="radio"  id="Yeager" value="Howard A Yeager">
+                <label for="Yeager">Howard A Yeager</label>
+
+                <input name="closest_school" type="radio" id="Hart" value="Marjorie P Hart">
+                <label for="Hart">Marjorie P Hart</label>
+
+                <input name="closest_school" type="radio" id="North" value="North Elementary">
+                <label for="North">North Elementary</label>
+
+                <input name="closest_school" type="radio" id="South" value="South Elementary">
+                <label for="South">South Elementary</label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>What position(s) do you normally play? (check all that apply)</h3></legend>
+                
+                <input name="position_play" type="checkbox"  id="Foward" value="Foward">
+                <label for="Foward">Foward</label>
+
+                <input name="position_play" type="checkbox" id="Defense" value="Defense">
+                <label for="Defense">Defense</label>
+
+                <input name="position_play" type="checkbox" id="Midfield" value="Midfield">
+                <label for="Midfield">Midfield</label>
+
+                <input name="position_play" type="checkbox" id="Goalkeeper" value="Goalkeeper">
+                <label for="Goalkeeper">Goalkeeper</label>                
+
+            </fieldset>
+
+            <fieldset>
+                <legend><h3>Uniform Size</h3></legend>
+
+                <input name="Uniform_Size" type="radio"  id="Youth_Smal" value="Youth Smal">
+                <label for="Youth_Smal">Youth Smal</label>
+
+                <input name="Uniform_Size" type="radio" id="Youth_Medium" value="Youth Medium">
+                <label for="Youth_Medium">Youth Medium</label>
+
+                <input name="Uniform_Size" type="radio" id="Youth_Large" value="Youth Large">
+                <label for="Youth_Large">Youth Large</label>
+
+                <input name="Uniform_Size" type="radio" id="Small" value="Small">
+                <label for="Small">Small</label>  
+
+                <input name="Uniform_Size" type="radio"  id="Medium" value="Medium">
+                <label for="Medium">Medium</label>
+
+                <input name="Uniform_Size" type="radio" id="Large" value="Large">
+                <label for="Large">Large</label>
+
+                <input name="Uniform_Size" type="radio" id="Extra_Large" value="Extra-Large">
+                <label for="Extra_Large">Extra-Large</label>
+
+            </fieldset>
+
+            <input type="submit" value="Send data">
+
+
+        </form>
+
+    </main>
+</body>
+</html>
